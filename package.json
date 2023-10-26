@@ -1,0 +1,23 @@
+{
+  "name": "shidoka-sample-solid",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@kyndryl-design-system/shidoka-applications": "^1.0.0-beta.69",
+    "@kyndryl-design-system/shidoka-charts": "^1.0.0-beta.14",
+    "@kyndryl-design-system/shidoka-foundation": "^1.0.0-beta.38",
+    "solid-js": "^1.7.8"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0",
+    "vite-plugin-solid-svg": "^0.7.0"
+  }
+}
